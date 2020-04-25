@@ -1,6 +1,5 @@
 # Redefining U-Net
-> Pasawee Wirojwatanakul
->
+> Pasawee Wirojwatanakul \
 > Alex Sung-Min Hong
 
 ## Features
