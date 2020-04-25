@@ -1,9 +1,10 @@
 # Redefining U-Net
 > Pasawee Wirojwatanakul
+
 > Alex Sung-Min Hong
 
 ## Features
-<p align="center"><img width="100%" src="image/model_fig.png" /></p>
+<p align="center"><img width="90%" src="image/model_fig.png" /></p>
 * In this study, we thoroughly studied U-Net and tweaked its architecture.
 * We studied different techniques to fuse the feature-maps of the encoder of Residual U-Net with the feautre-maps of the decoder of Residual U-Net.
 * To fuse the feature-maps, we experimented with addition, concatenation, Feature-wise Linear Modulations, Gate, and weighted combinations of feature-maps.
@@ -34,4 +35,4 @@ The performance can be evaluated by running [Evaluate.ipynb](Evaluate.ipynb).
 
 Empirically, the ensemble of our top models is able to outperform [the plain U-net](https://arxiv.org/abs/1505.04597) by 4.66% on Pixel Accuracy, and 1.76% on the Jaccard Index.
 
-<p align="center"><img width="100%" src="image/sample.png" /></p>
+<p align="center"><img width="90%" src="image/sample.png" /></p>
